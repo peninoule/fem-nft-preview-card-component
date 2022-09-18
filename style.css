@@ -144,21 +144,18 @@ a:hover {
     max-width: 20ch;
   }
 }
-.card__line {
-  height: 1px;
-  background-color: hsl(215deg, 32%, 27%);
-  margin: 24px 0 16px 0;
-}
 .card__wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid hsl(215deg, 32%, 27%);
 }
 
 .footer {
   display: flex;
   align-items: center;
   position: relative;
+  padding: 16px 0 8px;
 }
 .footer__img {
   width: 33px;

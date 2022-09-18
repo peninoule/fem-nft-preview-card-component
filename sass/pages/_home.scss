@@ -36,15 +36,11 @@
             max-width: 20ch;
         }
     }
-    &__line {
-        height: 1px;
-        background-color: u.$clr-neutral-700;
-        margin: 24px 0 16px 0;
-    }
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        padding-top: 24px;
+        padding: 24px 0;
+        border-bottom: 1px solid u.$clr-neutral-700;
     }
 }
 
@@ -52,6 +48,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding: 16px 0 8px;
     &__img {
         width: 33px;
         border-radius: 15px;
