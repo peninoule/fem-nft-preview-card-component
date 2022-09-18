@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-sass-_zMi6_guC2)
-- Live Site URL: [Add live site URL here](https://fem-nft-preview-card-component-pi.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-using-sass-_zMi6_guC2]
+- Live Site URL: [https://fem-nft-preview-card-component-pi.vercel.app/]
 
 ## My process
 
