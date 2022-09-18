@@ -12,8 +12,6 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-sass-_zMi6_guC2)
+- Live Site URL: [Add live site URL here](https://fem-nft-preview-card-component-pi.vercel.app/)
 
 ## My process
 
