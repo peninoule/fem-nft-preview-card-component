@@ -1,0 +1,78 @@
+@use '../utils/' as u;
+
+.card {
+    padding: 24px;
+    border-radius: 20px;
+    background-color: u.$clr-neutral-800;
+    &__view {
+        &:hover {
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: u.$clr-primary-300;
+            background-image: url(/icon-view.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    &__heading {
+        font-family: u.$ff-primary;
+        display: inline-block;
+        font-size: 22px;
+        color: white;
+        line-height: 27px;
+        font-weight: 600;
+        padding-top: 24px;
+        &:hover {
+            cursor: pointer;
+            color: u.$clr-primary-300;
+        }
+    }
+    &__body {
+        @include u.body-typo(u.$fs-body, u.$fw-300, 26px);
+        color: u.$clr-primary-500;
+        max-width: 25ch;
+        padding-top: 16px;
+        @media (max-width: 40em) {
+            max-width: 20ch;
+        }
+    }
+    &__line {
+        height: 1px;
+        background-color: u.$clr-neutral-700;
+        margin: 24px 0 16px 0;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &__img {
+        width: 33px;
+        border-radius: 15px;
+        border: 1px solid white;
+    }
+    &__body {
+        @include u.body-typo;
+        color: u.$clr-primary-500;
+        padding-left: 16px;
+    }
+}
+
+.hero {
+    border-radius: 20px;
+    height: 302px;
+    width: 302px;
+    @media (max-width: 40em) {
+        height: 278px;
+        width: 278px;
+    }
+    &:hover {
+        opacity: .5;
+    }
+}

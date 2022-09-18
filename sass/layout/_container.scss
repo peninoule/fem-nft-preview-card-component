@@ -1,0 +1,17 @@
+@use '../utils/' as u;
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    &__logo {
+        padding-right: 6px;
+    }
+    &__eth {
+        @include u.body-typo($fw: u.$fw-600);
+        color: u.$clr-primary-300;
+    }
+    &__time {
+        @include u.body-typo;
+        color: u.$clr-primary-500;
+    }
+}
